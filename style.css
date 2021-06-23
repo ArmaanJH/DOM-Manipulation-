@@ -1,0 +1,39 @@
+.done {
+    text-decoration: line-through;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space {
+    padding-right: 15px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 30px solid #F35230;
+    min-height: 91vh;
+}
+
+h1 {
+    font-size: 400%;
+    color: #F35230
+}
+
+p {
+    font-size: 150%;
+    color: #FF8B73;
+}
+
+h1, p{
+    padding-right: 15px;
+}
+
+#userinput {
+    padding-right: 15px;
+}
